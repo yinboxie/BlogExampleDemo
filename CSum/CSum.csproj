@@ -68,10 +68,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exceptions\ErrorMessage.cs" />
+    <Compile Include="Exceptions\NoAuthorizeException.cs" />
+    <Compile Include="Exceptions\UserFriendlyException.cs" />
     <Compile Include="Model\ExportModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Web\AjaxResult.cs" />
+    <Compile Include="Web\ExcuteMode.cs" />
+    <Compile Include="Web\Pagination.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\CSum.Util\CSum.Util.csproj">
+      <Project>{f5efc00e-7e3f-400f-9777-cca6c6ca4dbc}</Project>
+      <Name>CSum.Util</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>

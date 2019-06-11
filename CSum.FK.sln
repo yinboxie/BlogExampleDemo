@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSum", "CSum\CSum.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSum.Offices", "CSum.Offices\CSum.Offices.csproj", "{BDCC2B41-41F9-4FD6-903F-DB7E02A93929}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSum.WebApi", "CSum.WebApi\CSum.WebApi.csproj", "{D521EFDC-F0A2-4E23-98AB-5C0C51FE0A92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSum.Util", "CSum.Util\CSum.Util.csproj", "{F5EFC00E-7E3F-400F-9777-CCA6C6CA4DBC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{BDCC2B41-41F9-4FD6-903F-DB7E02A93929}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDCC2B41-41F9-4FD6-903F-DB7E02A93929}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDCC2B41-41F9-4FD6-903F-DB7E02A93929}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D521EFDC-F0A2-4E23-98AB-5C0C51FE0A92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D521EFDC-F0A2-4E23-98AB-5C0C51FE0A92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D521EFDC-F0A2-4E23-98AB-5C0C51FE0A92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D521EFDC-F0A2-4E23-98AB-5C0C51FE0A92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5EFC00E-7E3F-400F-9777-CCA6C6CA4DBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5EFC00E-7E3F-400F-9777-CCA6C6CA4DBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5EFC00E-7E3F-400F-9777-CCA6C6CA4DBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5EFC00E-7E3F-400F-9777-CCA6C6CA4DBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
