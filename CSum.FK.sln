@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSum.WebApi", "CSum.WebApi\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSum.Util", "CSum.Util\CSum.Util.csproj", "{F5EFC00E-7E3F-400F-9777-CCA6C6CA4DBC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSum.TestDemo", "CSum.TestDemo\CSum.TestDemo.csproj", "{44B434E3-C995-4E01-BA2C-1DCFFB6BF198}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{F5EFC00E-7E3F-400F-9777-CCA6C6CA4DBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5EFC00E-7E3F-400F-9777-CCA6C6CA4DBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5EFC00E-7E3F-400F-9777-CCA6C6CA4DBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44B434E3-C995-4E01-BA2C-1DCFFB6BF198}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44B434E3-C995-4E01-BA2C-1DCFFB6BF198}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44B434E3-C995-4E01-BA2C-1DCFFB6BF198}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44B434E3-C995-4E01-BA2C-1DCFFB6BF198}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
